@@ -1483,4 +1483,8 @@ footer {
   .footer-cols {
     gap: 32px;
   }
+
+  .yButton {
+    display: none !important;
+  }
 }
