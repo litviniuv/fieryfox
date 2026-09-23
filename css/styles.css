@@ -1483,8 +1483,11 @@ footer {
   .footer-cols {
     gap: 32px;
   }
+}
 
-  .yButton {
+@media (max-width: 1080px) {
+  .yButton,
+  [data-superbutton] {
     display: none !important;
   }
 }
